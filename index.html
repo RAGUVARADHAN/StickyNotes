@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans&family=Ysabeau+Infant:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans&family=Roboto&family=Ysabeau+Infant:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="content">
+    <div id="body">
+        <div class="container">
+            <div class="inner-cont">
+                <p>Sticky Notes</p>
+                <button id="addbtn">Add Notes</button>
+            </div>
+        </div>
+        
+        <div class="notescontainer">
+            <!-- <div class="notesbox">
+                <p id="title">Title</p>
+                <p id="date">Date</p>
+                <p id="info">Information</p>
+                <i class="fa-solid fa-trash"></i>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup-head">
+            <p>Add Notes</p>
+            <i class="fa-regular fa-circle-xmark" id="popup-close"></i>
+        </div>
+        <div>
+            <form id="input">
+                <label for="note-title">Note Title</label><br>
+                <input type="text" id="note-title" placeholder="Title" value=""><br>
+                <label for="date">Note Title</label><br>
+                <input type="date" id="date" value=""><br>
+                <label for="desc">Description</label><br>
+                <input type="text" id="desc" placeholder="Description" value="">
+                <i class="fa-solid fa-plus" id="add"></i>
+            </form>
+                
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/9ccf39e24b.js" crossorigin="anonymous"></script>
+</html>
